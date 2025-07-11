@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #dbe6f6, #c5796d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #6c3483;
+}
+
+.artist {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.cover img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  font-size: 0.8rem;
+  color: #888;
+}
